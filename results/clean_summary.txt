@@ -1,0 +1,28 @@
+Citi Bike cleaning summary (2026-11-20 04:37 UTC)
+
+Counters from stage 1 (reasons rows were rejected, and rows kept):
+  kept=79323770
+  kept_after_dedup=79323770
+  kept_borough_Bronx=2593336
+  kept_borough_Brooklyn=19939499
+  kept_borough_Manhattan=51540654
+  kept_borough_Non_NYC=2759
+  kept_borough_Queens=5247522
+  rejected_duration_over_24h=37495
+  rejected_duration_under_60s=182
+  rejected_end_before_start=643
+  rejected_missing_start_coords=47829
+  rejected_outside_2023_2024=276
+  rows_read=79410195
+  skipped_header_line=90
+
+Borough x hour table (stage 2):
+  rows: 71093
+  total trips: 79323770
+  trips in 2023: 35062021
+  trips in 2024: 44261749
+  trips in Bronx: 2593336
+  trips in Brooklyn: 19939499
+  trips in Manhattan: 51540654
+  trips in Non-NYC: 2759
+  trips in Queens: 5247522
